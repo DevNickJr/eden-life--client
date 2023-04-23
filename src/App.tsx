@@ -5,10 +5,10 @@ import Login from "./pages/Login"
 import NotFound from "./pages/NotFound"
 import './App.css'
 
-interface DummyProps {
-  number: number
-  setNumber: Dispatch<SetStateAction<number>>
-}
+// interface DummyProps {
+//   number: number
+//   setNumber: Dispatch<SetStateAction<number>>
+// }
 
 const App: React.FC = () => {
   return (
