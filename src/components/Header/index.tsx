@@ -17,6 +17,7 @@ const Header = () => {
             <li><Link to="/blogs">Blog</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/login" className='px-3 py-1.5 bg-black/10 rounded-full'>Login</Link></li>
           </ul>
         </nav>
     </header>
