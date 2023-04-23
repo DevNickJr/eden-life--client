@@ -10,7 +10,7 @@ interface DummyProps {
   setNumber: Dispatch<SetStateAction<number>>
 }
 
-const App: React.FC<DummyProps> = () => {
+const App: React.FC = () => {
   return (
     <Router>
       <main className="App">
